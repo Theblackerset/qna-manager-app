@@ -1,8 +1,13 @@
 export const environment = {
     production: true,
+    auth: {
+      url: 'https://webapp-botwhatsapp2.azurewebsites.net/api/token/GetAccessToken'
+    },
     azure: {
-        tenantId: 'b5f9ba68-c751-47b7-9ca0-bef57f773af8',
-        clientId: 'ac254156-9fa5-441e-a799-42ce71f66f87',
-        clientSecret: 'sH48Q~bI6LD8v146batITOtQ1NqSkggYoua4pcpQ',
+      credentialKey: '2a225cb3b5cc469d9b785364033a8fc1',
+    },
+    webApp: {
+      url: 'https://languagebotwhatsapp.cognitiveservices.azure.com/language/query-knowledgebases/projects/botwhatsapp',
+      apiVersion: 'api-version=2021-10-0'
     }
   };

@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { AzureAuthService } from './azure-auth.service';
+import { QnaMakerService } from './qna-maker.service';
 
-describe('AzureAuthService', () => {
-  let service: AzureAuthService;
+describe('QnaMakerServiceTsService', () => {
+  let service: QnaMakerService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(AzureAuthService);
+    service = TestBed.inject(QnaMakerService);
   });
 
   it('should be created', () => {
